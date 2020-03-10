@@ -45,7 +45,7 @@
         }
         @media (max-width: 767px) {
             body.non_app_page #non_wrapper {
-                            background-image: url('https://cdn.ulwolves.ie/img/_rotating/2019-08-14/portrait/Club Windsurfing Action Annie Pic 2..JPG'); 
+                            background-image: url('source/images/hook.jpg');
                         }
         }
     </style>
@@ -98,7 +98,7 @@
         <div class="card-body">
 
             <div class="avatar mx-auto">
-                <img src="https://cdn.ulwolves.ie/img/logo/ulwolves-wolf.png" class="rounded-circle bg-white" alt="UL Wolves">
+                <img src="source/images/ulsac.png" class="rounded-circle bg-white" alt="UL Wolves">
             </div>
 
             <div class="my-2">
