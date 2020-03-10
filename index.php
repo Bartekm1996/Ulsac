@@ -10,40 +10,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-    <meta name="author" content="AssureMemberships">
-    <meta name="description" content="UL Wolves Clubs and Societies, part of UL Student Life, is the home to all the student run clubs and societies that make up a huge part of the life of the University of Limerick">
-    
+
     <meta name="theme-color" content="#054897">
     <meta name="msapplication-navbutton-color" content="#054897">
 	<meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    
+
     <meta name="google-site-verification" content="HZ6JCt1jHvZLpvaSBRBMC3qB7ybLNyRa9CodtQiJwRY">
+
+    <title> ULSAC </title>
     
-    <title> | UL Wolves Clubs &amp; Societies (by AssureMemberships)</title>
-    
-    <link rel="manifest" href="https://ulwolves.ie/cdn/manifest.json">
 
     <link rel="shortcut icon" href="https://cdn.ulwolves.ie/img/logo/ul-wolves-welcome.png">
 
-    <link rel="stylesheet" type="text/css" 
-          href="https://ulwolves.ie/assets/lib/fontawesome-free-all.min.css">
-    
-    <link rel="stylesheet" type="text/css" 
-          href="https://cdn.ulwolves.ie/main/css/common.0.8.min.css">
-        
-    <link rel="stylesheet" type="text/css" 
-          href="https://cdn.ulwolves.ie/main/css/frontend-main.0.8.min.css">
-    
-        
     <link rel="stylesheet" type="text/css"
-          href="https://cdn.ulwolves.ie/main/css/frontend-responsive.0.8.min.css" >  
- 
-    
+          href="https://ulwolves.ie/assets/lib/fontawesome-free-all.min.css">
+
+    <link rel="stylesheet" type="text/css"
+          href="https://cdn.ulwolves.ie/main/css/common.0.8.min.css">
+
+    <link rel="stylesheet" type="text/css"
+          href="https://cdn.ulwolves.ie/main/css/frontend-main.0.8.min.css">
+
+
+    <link rel="stylesheet" type="text/css"
+          href="https://cdn.ulwolves.ie/main/css/frontend-responsive.0.8.min.css" >
+
+
     <style>
         @media (min-width: 768px) {
             body.non_app_page #non_wrapper {
-                            background-image: url('https://cdn.ulwolves.ie/img/_rotating/2019-08-14/landscape/Club Tag Rugby.jpg'); 
+                            background-image: url('source/images/hook.jpg');
                         }
         }
         @media (max-width: 767px) {
@@ -52,11 +49,7 @@
                         }
         }
     </style>
-    
-    <script>
-        window.base_url = 'https://ulwolves.ie/';
-        window.cdn_url = 'https://cdn.ulwolves.ie/';
-    </script>
+
     
 </head>
 <body id="body" class="page_privacy_confirm non_app_page pb-sm-5">
@@ -68,12 +61,12 @@
         <div class="card-body">
 
             <div class="avatar mx-auto">
-                <img src="https://cdn.ulwolves.ie/img/logo/ulwolves-wolf.png" class="rounded-circle bg-white" alt="UL Wolves">
+                <img src="images/ulsac.png" class="rounded-circle bg-white" alt="ULSAC logo">
             </div>
 
             <div class="my-2">
-                <h1 class="text-center">UL Wolves</h1>
-                <p class="text-center"><em>Home of UL Clubs &amp; Societies</em></p>
+                <h1 class="text-center">UL Sub Aqua Club</h1>
+                <p class="text-center"><em>Home of UL Sub Aqua</em></p>
             </div>
 
             <div class="row">
@@ -83,14 +76,14 @@
                 <p class="col-12 text-center">Please upgrade your browser or use <a href="https://www.google.com/chrome/">Google Chrome</a> / <a href="https://www.mozilla.org/en-US/firefox/new/">Mozilla Firefox</a>.</p>
                 <![endif]-->
                 <!--[if !IE]><!-->
-                <h2 class="col-12 mt-3 text-center">Privacy / Cookies</h2>
+                <h2 class="col-12 mt-3 text-center">Notice </h2>
 
-                <p class="col-12 text-justify">We use cookies and other technologies to provide authentication, customise your experience and perform analytics on this website. By clicking "Agree and continue to UL Wolves" below, you consent to the use by us and our third-party partners of cookies and data gathered from your registration and use of our platform. See our <b><a class="inline-link" onclick="show_privacy()" href="#">Privacy Policy</a></b> to learn more about the use of data and your rights.</p>
+                <p class="col-12 text-justify" align="middle">This website is currently under active development and will shortly be released to the public</p>
                 <div class="text-center col-12">
                     <div id="enable_1"> 
                         <h3>Please ensure that COOKIES and JAVASCRIPT are enabled on your web browser and refresh this page in order to continue to UL Wolves.</h3>
                     </div>
-                    <button id="accept_1" class="d-none btn btn-lg btn-primary">Agree and continue to UL Wolves</button>
+                    <button id="accept_1" class="d-none btn btn-lg btn-primary" >Agree and continue to UL Sub Aqua</button>
                 <!--<![endif]-->
                 </div>
             </div>
@@ -338,16 +331,17 @@ Ireland<br>
 
     
     <script>
-       
+
     var bgs_L = new Array();
-    bgs_L[0] = 'Club%20Tag%20Rugby.jpg'
-bgs_L[1] = 'Club%20American%20football%20Action%20Shot%20High%20Res.JPG'
-bgs_L[2] = 'IMG_20181021_163707.jpg'
+    bgs_L[0] = 'hook.jpg'
+    bgs_L[1] = 'lifejackets.jpg'
+    bgs_L[2] = 'uwh.jpg'
 
     var bgs_P = new Array();
-    bgs_P[0] = 'Club%20Windsurfing%20Action%20Annie%20Pic%202..JPG'
-bgs_P[1] = 'Basketball%20&%20Wolf.jpg'
-bgs_P[2] = '2019EimearScallyCapt.jpg'
+    bgs_P[0] = 'hook.jpg'
+    bgs_P[1] = 'lifejackets.jpg'
+    bgs_P[2] = 'uwh.jpg'
+
 
     var next_bg, url;
 
@@ -355,11 +349,11 @@ bgs_P[2] = '2019EimearScallyCapt.jpg'
         if (window.innerWidth > 767) {
                             window.bgs = bgs_L;
                 next_bg = 'next_bg_L';
-                url = 'https://cdn.ulwolves.ie/img/_rotating/2019-08-14/landscape/';
+                url = 'images/';
                     } else {
                             window.bgs = bgs_P;
                 next_bg = 'next_bg_P';
-                url = 'https://cdn.ulwolves.ie/img/_rotating/2019-08-14/portrait/';
+                url = 'images/';
                     }
     }
         
@@ -388,7 +382,7 @@ bgs_P[2] = '2019EimearScallyCapt.jpg'
 
             document.getElementById('non_wrapper').style.backgroundImage = "url('"+url+window.bgs[window.current_bg]+"')";
         }
-        setInterval(change_bg,8000); 
+        setInterval(change_bg,4000);
 
     }
 
