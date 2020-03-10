@@ -21,7 +21,7 @@
     <title> ULSAC </title>
     
 
-    <link rel="shortcut icon" href="https://cdn.ulwolves.ie/img/logo/ul-wolves-welcome.png">
+    <link rel="shortcut icon" href="source/images/ulsac.png">
 
     <link rel="stylesheet" type="text/css"
           href="source/css/fontawesome-free-all.min.css">
