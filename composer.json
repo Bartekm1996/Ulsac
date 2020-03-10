@@ -1,0 +1,39 @@
+{
+    "name": "amstaffix/silex-mysqli",
+    "type": "library",
+    "description": "MySQLi service provider for Pimple",
+    "keywords": [
+        "pimple",
+        "mysqli",
+        "MySQLiServiceProvider"
+    ],
+    "homepage": "http://github.com/AmsTaFFix/silex-mysqli",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kilte",
+            "email": "nwotnbm@gmail.com"
+        },
+        {
+            "name": "Nikita Sapogov",
+            "email": "amstaffix@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "require-dev": {
+        "pimple/pimple": "~3.0",
+        "phpunit/phpunit": "~4.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kilte\\MySQLi\\": "source"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.1.x-dev"
+        }
+    }
+}
