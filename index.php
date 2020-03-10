@@ -61,7 +61,7 @@
         <div class="card-body">
 
             <div class="avatar mx-auto">
-                <img src="images/ulsac.png" class="rounded-circle bg-white" alt="ULSAC logo">
+                <img src="source/images/ulsac.png" class="rounded-circle bg-white" alt="ULSAC logo">
             </div>
 
             <div class="my-2">
@@ -349,11 +349,11 @@ Ireland<br>
         if (window.innerWidth > 767) {
                             window.bgs = bgs_L;
                 next_bg = 'next_bg_L';
-                url = 'images/';
+                url = 'source/images/';
                     } else {
                             window.bgs = bgs_P;
                 next_bg = 'next_bg_P';
-                url = 'images/';
+                url = 'source/images/';
                     }
     }
         
