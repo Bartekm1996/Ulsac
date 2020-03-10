@@ -24,17 +24,17 @@
     <link rel="shortcut icon" href="https://cdn.ulwolves.ie/img/logo/ul-wolves-welcome.png">
 
     <link rel="stylesheet" type="text/css"
-          href="https://ulwolves.ie/assets/lib/fontawesome-free-all.min.css">
+          href="source/css/fontawesome-free-all.min.css">
 
     <link rel="stylesheet" type="text/css"
-          href="https://cdn.ulwolves.ie/main/css/common.0.8.min.css">
+          href="source/css/common.0.8.min.css">
 
     <link rel="stylesheet" type="text/css"
-          href="https://cdn.ulwolves.ie/main/css/frontend-main.0.8.min.css">
+          href="source/css/frontend-main.0.8.min.css">
 
 
     <link rel="stylesheet" type="text/css"
-          href="https://cdn.ulwolves.ie/main/css/frontend-responsive.0.8.min.css" >
+          href="source/css/frontend-responsive.0.8.min.css" >
 
 
     <style>
@@ -61,7 +61,7 @@
         <div class="card-body">
 
             <div class="avatar mx-auto">
-                <img src="source/images/ulsac.png" class="rounded-circle bg-white" alt="ULSAC logo">
+                <img src="source/images/ulsac.png" class="rounded-circle bg-white"  style="padding: 10px" alt="ULSAC logo">
             </div>
 
             <div class="my-2">
@@ -98,7 +98,7 @@
         <div class="card-body">
 
             <div class="avatar mx-auto">
-                <img src="source/images/ulsac.png" class="rounded-circle bg-white" alt="UL Wolves">
+                <img src="source/images/ulsac.png" class="rounded-circle bg-white" style="padding: 10px"  alt="UL Wolves">
             </div>
 
             <div class="my-2">
@@ -332,12 +332,12 @@ Ireland<br>
     
     <script>
 
-    var bgs_L = new Array();
+    var bgs_L = [];
     bgs_L[0] = 'hook.jpg'
     bgs_L[1] = 'lifejackets.jpg'
     bgs_L[2] = 'uwh.jpg'
 
-    var bgs_P = new Array();
+    var bgs_P = [];
     bgs_P[0] = 'hook.jpg'
     bgs_P[1] = 'lifejackets.jpg'
     bgs_P[2] = 'uwh.jpg'
